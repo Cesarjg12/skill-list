@@ -1,9 +1,7 @@
 import React, {useState} from 'react'
 import './App.css'
-import './NewSkillForm.css'
-import './NewSkillListItem.css'
-import SkillList from './SkillList'
-import NewSkillListItem from './NewSkillListItem'
+import SkillList from './NewSkillForm/SkillList'
+import NewSkillListItem from './NewSkillListItem/NewSkillListItem'
 
 
 export default function App() {
@@ -16,12 +14,12 @@ const initialSkills= [
 
 const [skills, setSkills] = useState(initialSkills);
   return (
-    <>
+    <div className='App'>
     <h1>React Dev Skills</h1>
 
     <SkillList skills={skills} />
     <hr></hr>
     <NewSkillListItem skills={skills} setSkills={setSkills} />
-    </>
+    </div>
   )
 }

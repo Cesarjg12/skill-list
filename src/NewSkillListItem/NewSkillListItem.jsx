@@ -1,10 +1,11 @@
 import React from 'react'
+import './NewSkillListItem.css'
 
 export default function NewSkillListItem() {
   return (
     <>
+    <form className='NewSkillForm'>
     <div>NewSkillListItem</div>
-    <form>
     <label>Skill</label>
         <input></input>
     <label>Level</label>

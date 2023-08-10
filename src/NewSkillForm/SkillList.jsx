@@ -1,8 +1,9 @@
 import React from 'react'
+import './NewSkillForm.css'
 
 export default function SkillList({ skills }) {
     return (
-      <div>
+      <div className='SkillListItem'>
         <h2>Skills List</h2>
         <ul>
           {skills.map((skill, index) => (
