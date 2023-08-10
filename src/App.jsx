@@ -17,7 +17,7 @@ return (
     <div className='App'>
     <h1>React Dev Skills</h1>
     <SkillList skills={skills} />
-    <hr></hr>
+    <br></br>
     <NewSkillForm skills={skills} setSkills={setSkills} />
     </div>
   );

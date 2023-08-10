@@ -1,4 +1,7 @@
+import React from 'react'
 import NewSkillListItem from "./NewSkillListItem";
+import "./NewSkillListItem.css"
+
 
 export default function SkillList({ skills }) {
   const SkillListItems = skills.map((s, idx) => (
