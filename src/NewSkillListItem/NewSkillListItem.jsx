@@ -1,7 +1,7 @@
 import React from 'react'
 import './NewSkillListItem.css'
 
-export default function NewSkillListItem() {
+export default function NewSkillListItem({ skills, setSkills }) {
   return (
     <>
     <form className='NewSkillForm'>
